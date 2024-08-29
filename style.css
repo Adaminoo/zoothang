@@ -2,6 +2,26 @@
     background-color: white;
     border: black 1px solid;
     border-radius: 8px;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    margin: 10% auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.largeheader {
+    font-size: 100px;
+}
+
+h1, h3 {
+    line-height: 0.2;
+}
+
+.inputtime {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
