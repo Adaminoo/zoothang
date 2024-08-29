@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .forms {
     background-color: white;
     border: black 1px solid;
@@ -15,15 +10,9 @@
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 .largeheader {
     font-size: 100px;
 }
-
-h1, h3 {
-    line-height: 0.2;
-}
-
 .inputtime {
     width: 50%;
     align-items: center;
