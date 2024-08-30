@@ -9,19 +9,33 @@
 <body>
     <div class="container">
         <div class="forms">
-            <span class="3">the rats, the rats, we're the rats</span>
-            <span class="largeheader">BEHOLD</h1>
-            <span class="1">THE RAT ZOO</1>
+            <span class="small">the rats, the rats, we're the rats</span><br>
+            <span class="large">BEHOLD</span><br>
+            <span class="medium"><strong>THE RAT ZOO</strong></span>
             <br><br>
-            <span class="3">Join our mailing list!</span>
+            <span class="small">Join our mailing list!</span><br><br>
             <div class="inputtime">
-                <form>
+                <form class="inputs">
                     <label for=”name”>Name:</label>
                     <input type=”text” id=”name” name=”name” pattern="[a-z]$" required>
+                    <input type="submit">
+                </form><br>
+                <form class="inputs">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="18" max="99" pattern="[0-9]$"required>
+                    <input type="submit">
+                </form><br>
+                <form class="inputs">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" pattern=”[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$” required>
                     <input type="submit">
                 </form>
             </div>
         </div>
     </div>
+    <img src="images/rat5.png" alt="" class="ratLord" width="10%">
+    <img src="images/rat2.png" alt="" class="remy">
+    <img src="images/rat4.png" alt="" class="coolRat">
+    <img src="images/dolphin.png" alt="" class="dolphin" width="5%">
 </body>
 </html>
